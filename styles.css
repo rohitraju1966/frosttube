@@ -1,0 +1,264 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgray;
+}
+
+#container { 
+    width:100%; font-size: 0;
+}
+#left, #middle, #right {
+    display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;line-height: 0.75;
+}
+
+#left {
+    width: 50%; height:190px ; background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/webb-dark.png");
+}
+#right {
+    width: 50%; background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/webb-dark.png");
+}
+
+#left h1 { 
+    text-align:left; 
+    color:white;
+    font-family: cursive;
+    font-size:50px;
+    padding-left: 2vw;
+} 
+#left h2 { 
+    text-align:left; 
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    padding-left: 2vw;
+} 
+.img1{
+    max-width: 100%;
+    width: 100%;
+    z-index:-1;
+    display:block;
+}
+
+
+
+#main h1{
+    text-align: center;
+    font-family: serif
+    ;    font-size: 50px;
+    padding-top:0vw;
+    padding-left: 15vw;
+    line-height: 0.25;
+}
+.text{
+    width: 50%;
+}
+.main-text h3 {
+    width: 40vw;
+    font-size: 1.5vw;
+    padding-left:33vw ;
+    font-family: cursive;
+}
+#image {
+    max-width: 100%;
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    display: block;
+}
+#image1 {
+    max-width: 100%;
+    width: 100%;
+    z-index: -1;
+    display: block;
+}
+#main .main-text {
+    color: white;
+    position: absolute;
+    top: 6vh;
+    left: 4vw;
+    z-index: +1;
+    margin: 0;
+    padding: 0;
+    
+}
+.info5{
+    padding-left: 6vw;
+    padding-top: 3vw;
+    padding-bottom: 1.5vw;
+}
+
+#title1 {
+    text-align: left;
+    font-family: l;
+    font-size: 1.5vw;
+    padding: 5vw 0;
+    color:white;
+    background-color:black;
+    padding-right: 3vw;
+}
+#title2 {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3vw;
+    padding: 2.5vw 0;
+    padding-left: 2vw;
+    color:white;
+    background-color:black;
+}
+
+#tribute-info {
+    color:black;
+    padding-bottom: 4vw;
+    padding-top: 2.5vw;
+}
+
+#tribute-info h1{
+    text-align: center;
+    font-size: 3vw;
+}
+
+.info1 {
+    text-align: center;
+    line-height: 0.8;
+}
+
+
+#info1 p {
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+.info {
+    padding: 2vw;
+    padding-left: 2vw;
+
+}
+.info5 h1{
+    margin:0;
+    font-size: 25px ;
+    padding-bottom: 1vw;
+}
+.info5 li{
+    font-size: 1.5vw ;
+    padding-bottom: 2vw;
+}
+
+#info h3 {
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+#info p {
+    font-size: 1.5vw;
+}
+.hob {
+    font-size: 1.5vw ;
+    padding-bottom: 2vw;
+     padding-left: 5vw;
+     padding-top:2vw;
+     
+}
+.hob li{
+    padding-bottom: 2vw;
+    
+}
+
+#infoo {
+    padding: 3vw;
+    text-align: center;
+}
+
+#infoo h2 {
+    font-size: 1.5vw;
+}
+
+#infoo a {
+    background-color: black;
+    text-decoration: yellow;
+    color:white;
+    text-align: left;
+}
+
+#infoo a:hover {
+    opacity: 0.7;
+}
+.skills{
+    align-content: center;
+    padding-left: 25vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+.hob{
+    width: 100%;
+}
+
+.contact{
+     padding-left: 6vw;
+     padding-top: 2vw;
+     padding-bottom: 2vw;
+     text-align: justify;
+}
+.contact h1{
+    font-size: 24px;;
+}
+ 
+footer {
+    text-align: center;
+    background-color: #191919;
+    color: white;
+    height: 30vh;
+    padding-top: 40px;
+  }
+  footer h2 {
+    font-family: 'Kalam', cursive;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    display: inline-flex;
+  }
+  footer h2 .hidden-letters {
+    max-width: 0;
+    opacity: 0;
+    transition: 0.4s ease-in;
+  }
+  footer h2:hover .hidden-letters {
+    max-width: 1em;
+    opacity: 1;
+  }
+
+  footer p {
+    color: grey;
+    font-size: 13px;
+    font-family: 'BenchNine', sans-serif;
+    letter-spacing: 3px;
+  }
+  footer .t-and-c {
+    margin-right: 50px;
+  }
+  footer .tc-and-policy {
+    display: inline-block;
+    color: rgb(82, 82, 82, 0.7);
+  }
+  footer .tc-and-policy:hover {
+    color: rgb(82, 82, 82, 0.35);
+    cursor: pointer;
+  }
+  footer .copyright {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  footer .made-maintained {
+    font-size: 18px;
+    font-family: 'Heebo';
+    letter-spacing: 0;
+  }
+  footer a {
+    color: white;
+    margin-left: 5px;
+  }
+  footer a:hover {
+    color: white;
+  }
